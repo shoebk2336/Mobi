@@ -14,3 +14,6 @@ to run frontend locally use --npm run dev
 frontend is deployed using vercel
 deployed link 
 --https://mobilicis-shoebk2336.vercel.app/
+
+backend is deplolyed on cyclic so vercel link will run without any command 
+backend deployed link:https://rich-teal-bear-yoke.cyclic.app
