@@ -16,8 +16,8 @@ const Home=()=>{
 
     const ApiData=async()=>{
         if(Filter===''){
-            var url="http://localhost:8080/allData"
-        }else var url=`http://localhost:8080/sort${Filter}`
+            var url="https://rich-teal-bear-yoke.cyclic.app/allData"
+        }else var url=`https://rich-teal-bear-yoke.cyclic.app/sort${Filter}`
 
         const Data=await fetch(url)
         const res=await Data.json()
